@@ -64,3 +64,195 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+    box-sizing: border-box;
+    /* margin: 0; */
+    padding: 0;
+    }
+
+    .container  {
+        width: 75%;
+        margin: 20px auto;
+    }
+    a{
+        text-decoration: none;
+	}
+	
+	/* ////////////Header///////////////////// */
+
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        color: green;
+        position: fixed;
+        top: 0;
+		width: 75%;
+		background: rgb(247, 243, 243);
+		padding-left: 10px;
+		padding-right: 10px;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        width: 75%;
+        padding-top: 10px;
+    }
+
+    .nav a {
+        color: green;
+    }
+
+    /* //////////// section Header content //////////// */
+    .header-content {
+        display: flex;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    .content-1{
+        width: 75%;
+        text-align: center;
+        padding-top: 40px;
+        font-size: 2em;
+	}
+	.content-1 h1{
+		font-size: 3em;
+	}
+    .content-1 button{
+        font-size: .8em;
+        padding: 10px 40px;
+    }
+    .content-1 button:hover{
+        background: black;
+        color: white;
+    }
+
+    /* /////////// section main-content ////////////// */
+
+    .main-content{
+        border-top: .1em solid black;
+		border-bottom: .1em solid black;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		margin-bottom: 30px;
+    }
+
+    .main-content1{
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: left;
+
+    }
+
+    .main-content3{
+        display: flex;
+        text-align: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .padng-right {
+        margin-right: 20px;
+    }
+
+    /* //////////////////// */
+
+    footer {
+		margin-top: 30px;
+        text-align: center;
+	}
+	
+	/* ////////////services page */
+
+	.services-header-img{
+		width: 100%;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.products {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 30px;
+		border-top: 2px solid black;
+		border-bottom: 2px solid black;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.products div{
+		width: 47.5%;
+		border: 1px solid black;
+		padding: 10px;
+		background: rgb(245, 237, 237);
+	}
+
+	.margin-rgt{
+		margin-right: 5%;
+	}
+	.margin-btm{
+		margin-bottom: 5%;
+	}
+
+.products button{
+	padding: 5px 20px;
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.facts {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.facts div{
+   width: 50%;
+}
+
+.facts img {
+	width: 50%;
+}
+
+.facts div ul{
+	margin-top: 15px;
+}
+
+.facts div ul li {
+	list-style: disc;
+	list-style-position: inside;
+}
+
+/* //////////anout page  */
+
+.about-page {
+	margin-top: 100px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about-page h4{
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 800;
+	font-size: 1.6em;
+}
+
+.about-page div{
+	display: flex;
+	line-height: 2em;
+}
+
+.about-page div p{
+	padding-right: 15px;
+	text-align: left;
+}
+
+
+.about-contact{
+	margin-top: 35px;
+}
